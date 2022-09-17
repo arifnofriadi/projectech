@@ -1,0 +1,99 @@
+html, body {
+    background: url('../img/launch-project.svg') no-repeat center;
+    background-size: fit-content;
+    height: 100%;
+}
+
+.bg-primary-gradient {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0.9) 0%, rgba(9,9,121,0.7) 57%, rgba(8,150,179,1) 100%); 
+}
+
+.col-lg-12 {
+    height: 100%;
+}
+
+#intro .intro-section{
+    margin-top: 10em;
+}
+
+#intro .img-intro {
+    width: 15%;
+}
+
+
+#intro .intro-title {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 60px;
+    text-transform: uppercase;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+@keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+}
+
+#intro .intro-description {
+    font-weight: 900;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+@-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#icon {
+    font-size: 20px;
+}
+
+#icon .bi {
+    position: relative;
+    transition: all 0.2s ease;
+    margin: 5px 10px;
+    bottom: 0;
+    color: white;
+}
+
+#icon .bi:hover {
+    bottom: 10px;
+}
+
+#notify {
+    text-align: center;
+}
+
+#notify .form-inline {
+    display: block;
+}
+
+#notify .btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+#notify .btn:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
