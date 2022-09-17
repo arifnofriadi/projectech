@@ -99,6 +99,11 @@ html, body {
 }
 
 @media(max-width: 568px) {
+
+    .navbar img {
+        width: 100%;
+    }
+
     #notify input {
         width: 100% !important;
         margin-bottom: 8px;
